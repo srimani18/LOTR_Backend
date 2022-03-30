@@ -136,7 +136,7 @@ const getCharacterById = async (req: Request, res: Response, next: NextFunction)
         message: character
     });
 };
-//Request all movie quotes of one specific character
+//Request all movie quotes of one specific characters
 
 const getAllMovieQuotesByCharacterId = async (req: Request, res: Response, next: NextFunction) => {
     let id: string = req.params.id;
